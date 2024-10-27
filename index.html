@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>library</h1>
+            <nav>
+                <div class="log-block">
+                    <button class="log-in">Log in</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main container">
+        <button class="btn-add" id="addButton">
+            + Add book
+        </button>
+        <div id="bookGrid" class="book-grid"></div>
+    </main>
+    <section class="section">
+        <div class="overlay" id="overlay"></div>
+        <div class="form-div" id="modalAdd">
+            <form action="" class="add-form">
+                <span class="close" id="closeModal">&times;</span> 
+                <h3>Add new book</h3>
+                <input type="text" class="input" placeholder="Title">
+                <input type="text" class="input" placeholder="Author">
+                <input type="number" class="input" placeholder="Pages">
+                <div class="read">
+                    <p>Have you read it?</p>
+                    <input class="checkbox" type="checkbox">
+                </div>
+                <button class="submit" type="submit">Submit</button>
+                
+                
+            </form>
+        </div>
+        
+    </section>
+
+
+   <script src="./js/examples.js"></script>
+</body>
+</html>
